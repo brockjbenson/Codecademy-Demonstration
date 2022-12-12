@@ -1,15 +1,29 @@
 body {
     font-family: 'Mukta', sans-serif;
-  }
-  
-  
-  header {
-    background-color: aqua;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 50px;
-    font-style: bold;
+    margin: auto;
+    
     
   }
+  
+  
+  .header {
+    color: black;
+    text-align: center;
+    padding: 0.1rem;
+    
+  
+  }
+  
+  .h1_header {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+  
+  
+    
+  }
+  
+  .h3_header {
+  
+  }
+  
