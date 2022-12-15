@@ -16,7 +16,8 @@ font-family: 'Mukta', sans-serif;
   text-align: center;
   color: white;
   font-style: italic;
-  background-color: rgba(70,0,0,0.5);
+  background-color: rgba(0, 255, 221, 0.5);
+  -webkit-text-stroke: 0.1rem black;
 }
 
 h1.header {
@@ -51,43 +52,31 @@ a.nav {
 
 a.nav:hover {
   scale: 110%;
-  transition: 0.5s;
-  color: crimson;
+  transition: 0.1s;
+  color: aquamarine;
   cursor: pointer;
-  background-color: rgba(0,0,0,0.3);
-}
+background-color: transparent;}
 
 .container-1 {
-  position: relative;
-  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.container-1 img {
-  width: 60%;
-  height: 60%;
-  padding-left: 25%;
-  padding-top: 10rem;
+.locations {
+  flex:1;
 }
 
-.container-1 .btn {
-  color: white;
-  position: absolute;
-  top: 55%;
-  left: 43%;
-  background-color: rgba(0,0,0,0.8);
-  backdrop-filter: blur(2px);
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 25%;
-  height: 15%;
+.founders {
+  flex:1;
 }
 
-.container-1 .btn:hover {
-  cursor: pointer;
-  color: red;
-  scale: 110%;
-  transition: 0.5s;
+.standings {
+  flex:1;
+}
+
+#container-imgs {
+  width:25rem;
+  height:20rem;
 }
